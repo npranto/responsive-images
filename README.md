@@ -43,5 +43,6 @@ A guide to best responsive design practices for handling and working with image 
     ```   
 * Raster vs. Vector Images
     * Raster images are made from small dotted pixels whereas vector images are smaller picture chunks combined together to make a larger image
-    * Vector images usually scale better visually and clarify with different screen sizes than raster images
+    * Vector images usually scale better visually and in clarity with different screen sizes than raster images
+    * Generally, raster image formats are in .png and.jpg; vector image formats are in .svg
          
