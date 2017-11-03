@@ -48,4 +48,7 @@ A guide to best responsive design practices for handling and working with image 
     * The file size for vector images are also a lot smaller than raster images  
 * Always try to use a smaller sized image whenever possible to shrink load time on a slower network. Size of the image should be no larger than how it should be shown on a page.
 * To check page speeds based on image optimization, go to [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to better investigate page optimization
-* Remember the goal, images should not any larger in size than it needs to be viewed and also file size of the image should be compressed as much as possible to save load time on low networks
+* Remember the goal, images should not be any larger in size than it needs to be viewed and also file size of the image should be compressed as much as possible to save load time on low networks
+
+### Images and Markup
+
