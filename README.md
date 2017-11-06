@@ -52,3 +52,17 @@ A guide to best responsive design practices for handling and working with image 
 
 ### Images and Markup
 
+##### Text Problems
+* text as graphics does not scale well on different devices and the size of graphic file can also take a lot of space and affect load time
+* file formats can also be a problem for graphics with text and photo, since as developers, you would have to pick between showing the text or the photo with better resolution; both usually does not scale well together as graphics
+* also, texts with graphics makes it difficult to search for search engines; they may not be accessible for screen readers and the text can not be copied either
+* __SOLUTION...__ always try to overlay the text on top of the image to treat the image and text differently on different devices
+
+##### CSS Techniques
+* limit animations, shadow effects and radius sizes as it affects page load time
+
+##### Symbol Characters
+* If possible, try to use unicode character codes (110,000+ characters available) for smaller graphics like an arrow or a smile emoji as they scale better like text
+
+ 
+ 
