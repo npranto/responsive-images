@@ -65,4 +65,18 @@ A guide to best responsive design practices for handling and working with image 
 * If possible, try to use unicode character codes (110,000+ characters available) for smaller graphics like an arrow or a smile emoji as they scale better like text
 
  
- 
+### Full Responsiveness
+* Use "srcset" attribute for <img> elements to automate browser to choose appropriate image file to render based on screen size
+* The browser automatically chooses the image with higher resolution density for quality image
+    ```html
+        <img src="./path/to/image_1x.jpg" srcset="./path/to/image_1x.jpg 1x, ./path/to/image_2x.jpg 2x"/>
+    ```
+* Art direction: choosing different image automatically with different screen sizes
+    ```html
+      <picture>
+          <source media="(min-width: 650px)" srcset="./path/to/image-large.jpg" />
+          <source media="(min-width: 400px)" srcset="./path/to/image-medium.jpg" />
+          <img src="./path/to/image.jpg" />
+      </picture>
+    ```
+* For accessibility purposes, we can also provide screen readers for visually disabled viewers to experience 
